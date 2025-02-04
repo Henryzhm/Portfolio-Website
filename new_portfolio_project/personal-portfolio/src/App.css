@@ -105,7 +105,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
-  opacity: 0.75;
+  opacity: 0.5;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -243,15 +243,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: #2D2427;
 }
 .banner .tagline {
+  text-decoration: none;
   transform: translate(-80px, -100px);
   font-weight:800;
   letter-spacing: 1px;
   padding: 8px 10px;
   background: linear-gradient(90.21deg, rgba(139, 69, 19, 0.8) -5.91%, rgba(0, 0, 0, 0.8));
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: none;
   font-size: 30px;
   margin-bottom: 50px;
   display: inline-block;
+  color:#fff;
+}
+.banner .tagline:hover {
+  color: #e9cfb1e0;
 }
 .banner h1 {
   transform: translate(-80px, -100px);

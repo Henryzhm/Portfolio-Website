@@ -55,7 +55,15 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">My Resume</span>
+              <a 
+                className="tagline" 
+                href="/Resume.pdf"       
+                target="_blank"         
+                rel="noopener noreferrer"
+              >
+                My Resume
+              </a>
+                
                 <h1>{`Hi, I'm Henry!`} </h1>
                   <p>Code is my language, and innovation is my mission. As a pragmatic web developer, I turn ideas into reality by crafting seamless, scalable solutions that merge creativity with functionality. With a sharp eye for detail and an unwavering curiosity, I create digital experiences that captivate users and solve real-world challenges.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
