@@ -586,35 +586,34 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Footer Css ************/
 .footer {
-  padding: 0 0 50px 0;
+  padding: 50px 0;
   background: #2D2427;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .contact-info {
   display: flex;
-  justify-content: space-between; /* 让两列均衡居中 */
-  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: -150px;
 }
 
 .contact-column {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* 让 Email、Phone 等信息的间距更均匀 */
-  min-width: 10px;
+  gap: 20px; /* 控制 Email、Phone 等间距 */
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 12px; /* 图标和文字的间距 */
+  gap: 20px; /* 图标和文字的间距 */
 }
 
 .contact-icon {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
 }
 
 .contact-item div {
@@ -622,21 +621,24 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   flex-direction: column;
 }
 
+
 .contact-item strong {
   font-size: 14px;
   color: white;
 }
 
 .contact-item p {
-  margin: 0;
+  white-space: nowrap;
   font-size: 12px;
   color: white;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .social-icon {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 15px;
 }
 
 .social-icon img {
@@ -647,6 +649,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .social-icon img:hover {
   transform: scale(1.1);
 }
+
 .newsletter-bx {
   background: #000000;
   border-radius: 55px;

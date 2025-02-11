@@ -3,10 +3,10 @@ import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import emailIcon from "../assets/img/email.png"; // 你的 Email 图标
-import phoneIcon from "../assets/img/phone.png"; // 你的 Phone 图标
-import wechatIcon from "../assets/img/wechat.png"; // 你的 WeChat 图标
-import locationIcon from "../assets/img/location.png"; // 你的 Location 图标
+import emailIcon from "../assets/img/email.svg"; // 你的 Email 图标
+import phoneIcon from "../assets/img/phone.svg"; // 你的 Phone 图标
+import wechatIcon from "../assets/img/wechat.svg"; // 你的 WeChat 图标
+import locationIcon from "../assets/img/location.svg"; // 你的 Location 图标
 
 export const Footer = () => {
   return (
@@ -18,34 +18,32 @@ export const Footer = () => {
             <img src={logo} alt="Logo" className="footer-logo" />
           </Col>
 
-          {/* 中间的联系方式（两列排列） */}
+          {/* 中间的联系方式 */}
           <Col sm={4} className="contact-info">
-            <Row className="gx-5"> {/* 使用 Bootstrap 自动间距 */}
-              {/* 左列 */}
-              <Col xs={6} sm={6} className="contact-column">
-                <div className="contact-item">
-                  <img src={emailIcon} alt="Email" className="contact-icon" />
+            <Row className="align-items-center justify-content-start mt-3 gx-5"> {/* 适当缩小间距，保证均匀对齐 */}
+              <Col xs={6} className="contact-column">
+                <div className="contact-item d-flex align-items-center">
+                  <img src={emailIcon} alt="" className="contact-icon me-2" />
                   <div>
-                    <strong>Email</strong>
-                    <p>huang@rin.contact</p>
+                      <strong>Email</strong>
+                      <p className="mb-0">henryzhm@outlook.com</p>
                   </div>
-                </div>
+               </div>
+
                 <div className="contact-item">
                   <img src={phoneIcon} alt="Phone" className="contact-icon" />
                   <div>
                     <strong>Phone</strong>
-                    <p>+61 450 270 703</p>
+                    <p>+61 434 619 632</p>
                   </div>
                 </div>
               </Col>
-
-              {/* 右列 */}
-              <Col xs={6} sm={6} className="contact-column">
+              <Col xs={6} className="contact-column">
                 <div className="contact-item">
                   <img src={wechatIcon} alt="WeChat" className="contact-icon" />
                   <div>
                     <strong>WeChat</strong>
-                    <p>+86 138 8533 0703</p>
+                    <p>ZHMabbyz220520</p>
                   </div>
                 </div>
                 <div className="contact-item">
@@ -58,7 +56,6 @@ export const Footer = () => {
               </Col>
             </Row>
           </Col>
-
 
           {/* 右侧社交媒体 */}
           <Col sm={4} className="text-center text-sm-end">
@@ -78,5 +75,6 @@ export const Footer = () => {
         </Row>
       </Container>
     </footer>
+
   );
 };
