@@ -1,36 +1,37 @@
-# Personal Portfolio Website in React
+Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🚀 Overview
+This is a personal portfolio website designed to showcase my skills, projects, and experience in an interactive and visually appealing manner. The website is built using React.js, with styling borrowed from judygab's GitHub repository. It features a clean UI, smooth animations, and a responsive design.
 
-<img width="1266" alt="Screen Shot 2022-06-19 at 2 18 18 PM" src="https://user-images.githubusercontent.com/50160672/174933373-1ba6cadf-1c9a-48c3-aa58-984d0bd62d82.png">
 
-Built using:
+🛠️ Technologies Used
+Frontend: React.js, Bootstrap, React-Bootstrap, Animate.css
+Form Handling: Mailchimp API, Local form submission (backend required)
+Icons: React-Bootstrap-Icons
+Animations: CSS Animations, TrackVisibility
 
-- Front-end library: React
-- CSS framework: React-bootstrap
-- CSS animations library: Animate.css
 
-In the /personal-portfolio, you can run:
+🔧 Setup & Installation
 
-### `npm start`
+1️⃣ Clone the Repository
+      git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+      cd YOUR_REPOSITORY_NAME
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2️⃣ Install Dependencies
+      npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3️⃣ Start Development Server
+      npm start
 
-### `npm test`
+The project will run on http://localhost:3000/.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+💡 Credits & Acknowledgments
+      Styles & Design Inspiration: Borrowed from judygab's GitHub repository.
+      Icons & Animations: Bootstrap Icons, Animate.css.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📬 Contact
+If you have any questions or feedback, feel free to reach out:
+      Email: henryzhm@outlook.com
+      LinkedIn: [Huiming Zhang (Henry)](https://www.linkedin.com/in/huiming-zhang-henry/)
